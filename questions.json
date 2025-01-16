@@ -119,7 +119,7 @@
         "explanation": "The spleen filters blood, removes old or abnormal red blood cells, and plays a crucial role in clearing encapsulated bacteria from the bloodstream."
     },
     {
-        "question": "Which route do naive lymphocytes take to enter a lymph node?",
+        "question": "Which specialized route allows resting lymphocytes to enter a lymph node?",
         "choices": [
             "Efferent lymphatics",
             "High endothelial venules",
@@ -128,7 +128,7 @@
             "Marginal zone"
         ],
         "correctAnswer": 1,
-        "explanation": "High endothelial venules (HEVs) allow naive lymphocytes to enter lymph nodes from the bloodstream."
+        "explanation": "High endothelial venules (HEVs) allow resting lymphocytes to enter lymph nodes from the bloodstream due to specialized adhesion molecules."
     },
     {
         "question": "What happens to old or damaged red blood cells during circulation in the spleen?",
