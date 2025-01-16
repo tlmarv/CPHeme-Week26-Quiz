@@ -1,5 +1,4 @@
-[
-       {
+[    {
         "question": "During embryonic development, where does hematopoiesis initially begin before transitioning to the fetal liver and bone marrow?",
         "choices": [
             "Fetal spleen",
@@ -284,7 +283,7 @@
             "Ringed sideroblasts"
         ],
         "correctAnswer": 1,
-        "explanation": "Rouleaux formation is a hallmark of multiple myeloma due to increased serum proteins."
+        "explanation": "Rouleaux formation is a hallmark of multiple myeloma due to increased serum proteins. Increased kappa:lambda ratio could be correct if they have excess free light chains and if kappa is predominating."
     },
     {
         "question": "A 70-year-old male has fatigue, hypercalcemia, and back pain. Serum protein electrophoresis reveals an M spike. What is the next diagnostic step?",
@@ -330,17 +329,17 @@
         "correctAnswer": 2,
         "explanation": "In the U.S., Burkitt lymphoma often presents with abdominal masses."
     },
-    {
-        "question": "Which plasma cell disorder is associated with AL amyloidosis?",
-        "choices": [
-            "Monoclonal gammopathy of undetermined significance (MGUS)",
-            "Smoldering myeloma",
-            "Plasma cell myeloma",
-            "Primary amyloidosis"
-        ],
-        "correctAnswer": 3,
-        "explanation": "AL amyloidosis results from the deposition of abnormal light chains, often produced in primary amyloidosis."
-    },
+  {
+    "question": "A 65-year-old male is incidentally found to have a serum monoclonal protein (M-protein) level of 2.5 g/dL during routine blood work. He denies any symptoms such as bone pain, fatigue, or weight loss. Physical examination is unremarkable. Laboratory studies reveal normal calcium levels, renal function, and hemoglobin. A skeletal survey shows no lytic lesions. Bone marrow biopsy demonstrates 5% clonal plasma cells. What is the most appropriate management strategy for this patient?",
+    "choices": [
+        "Immediate initiation of chemotherapy",
+        "Radiation therapy to prevent progression",
+        "Observation with regular follow-up",
+        "Autologous stem cell transplantation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient meets the criteria for monoclonal gammopathy of undetermined significance (MGUS), characterized by the presence of a monoclonal protein <3 g/dL, <10% clonal plasma cells in the bone marrow, and absence of end-organ damage (CRAB criteria: hypercalcemia, renal insufficiency, anemia, bone lesions). MGUS is a premalignant condition with a low risk of progression to multiple myeloma (approximately 1% per year). Therefore, the appropriate management is observation with regular follow-up to monitor for any signs of progression."
+},
     {
         "question": "A 55-year-old patient presents with fatigue, fever, and bleeding gums. Blood smear shows 25% myeloblasts with Auer rods. FISH confirms t(8;21). What is the prognosis and initial treatment approach for this condition?",
         "choices": [
@@ -393,13 +392,13 @@
         "question": "A 75-year-old male presents with fatigue and pancytopenia. Bone marrow biopsy shows hypercellularity with dysplastic erythroid precursors and less than 20% blasts. What is the general therapeutic approach?",
         "choices": [
             "Standard chemotherapy with anthracycline and cytarabine",
-            "Supportive care with transfusions and hypomethylating agents",
+            "Supportive care with transfusions and erythroid colony stimulating factors",
             "Stem cell transplant in all cases",
             "Targeted therapy with JAK2 inhibitors",
             "Immediate phlebotomy and aspirin"
         ],
         "correctAnswer": 1,
-        "explanation": "MDS is managed with supportive care and hypomethylating agents in progressive disease."
+        "explanation": "MDS is managed with supportive care and erythroid colony stimulating factors in progressive disease."
     },
     {
         "question": "A patient with MDS and 5q deletion responds to lenalidomide therapy. What is the mechanism of action of this drug?",
@@ -569,18 +568,18 @@
         "correctAnswer": 1,
         "explanation": "RBC transfusion is used to treat symptomatic anemia, with one unit increasing hemoglobin by approximately 1 g/dL in a 70-kg patient."
     },
-    {
-        "question": "A 48-year-old patient undergoing surgery has a platelet count of 40,000/μL. What is the appropriate blood product to administer, and why?",
-        "choices": [
-            "Cryoprecipitate, because it contains fibrinogen and clotting factors",
-            "RBCs, because they increase oxygen-carrying capacity",
-            "Platelets, because they treat thrombocytopenia and support hemostasis",
-            "Fresh frozen plasma, because it replaces coagulation factors",
-            "Albumin, because it restores intravascular volume"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Platelet transfusion is indicated for active bleeding or pre-surgical patients with platelet counts below 50,000/μL to prevent hemorrhage."
-    },
+   {
+    "question": "A 48-year-old patient undergoing surgery has a platelet count of 40,000/μL and develops significant oozing at the surgical site despite platelet transfusion. The patient’s coagulation studies reveal prolonged PT and PTT, and fibrinogen levels are 90 mg/dL. Which of the following is the next best step in management, and why?",
+    "choices": [
+        "Administer cryoprecipitate to replenish fibrinogen and support hemostasis",
+        "Transfuse additional platelets to further increase the platelet count",
+        "Administer RBCs to improve oxygen delivery and reduce bleeding risk",
+        "Infuse fresh frozen plasma to correct coagulation factor deficiencies",
+        "Administer albumin to improve oncotic pressure and reduce surgical oozing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In this scenario, the patient has thrombocytopenia and hypofibrinogenemia, contributing to impaired hemostasis. Despite platelet transfusion, fibrinogen levels below 100 mg/dL necessitate the use of cryoprecipitate, which contains concentrated fibrinogen. While fresh frozen plasma also contains fibrinogen, it is less concentrated and typically used for broader coagulation factor deficiencies. Platelet transfusion alone will not correct the fibrinogen deficiency, and RBC or albumin administration does not directly address the coagulopathy."
+},
     {
         "question": "A patient with warfarin overdose and active bleeding presents to the emergency department. What is the most appropriate immediate intervention?",
         "choices": [
@@ -813,13 +812,13 @@
         "question": "A 45-year-old patient undergoing chemotherapy for AML presents with a fever of 101°F and an absolute neutrophil count (ANC) of 400/μL. What is the definition of neutropenia and fever in this patient?",
         "choices": [
             "Neutropenia: ANC < 1000/μL; Fever: temperature > 100.4°F for 1 hour",
-            "Neutropenia: ANC < 500/μL; Fever: single temperature > 101°F or > 100.4°F for 1 hour",
+            "Neutropenia: ANC < 500/μL; Fever: single temperature > 101°F or > 100.4°F for 2 hours",
             "Neutropenia: ANC < 1500/μL; Fever: temperature > 100.4°F for 2 hours",
             "Neutropenia: ANC < 100/μL; Fever: temperature > 102°F for 2 hours",
             "Neutropenia: ANC < 500/μL; Fever: temperature > 100.4°F regardless of duration"
         ],
         "correctAnswer": 1,
-        "explanation": "Neutropenia is defined as an ANC < 500/μL, and fever in neutropenia is a single temperature > 101°F or sustained > 100.4°F for 1 hour."
+        "explanation": "Neutropenia is defined as an ANC < 500/μL, and fever in neutropenia is a single temperature > 101°F or sustained > 100.4°F for 2 hours."
     },
     {
         "question": "A 30-year-old woman with febrile neutropenia has a blood culture positive for Pseudomonas aeruginosa. What is the most appropriate empirical therapy for febrile neutropenic patients suspected of bacterial infection?",
@@ -904,5 +903,147 @@
         ],
         "correctAnswer": 1,
         "explanation": "Gram-negative rods from the patient’s own flora are the most common cause of bacterial infections in febrile neutropenic patients."
-    }
+    },
+{
+    "question": "A 29-year-old man comes to the physician because of a 3-month history of fatigue, weight loss, and multiple painless swellings on his neck and axilla. He reports that his swellings become painful after he drinks alcohol. Physical examination shows nontender cervical and axillary lymphadenopathy. A lymph node biopsy specimen shows giant binucleate cells. Which of the following is the most likely diagnosis?",
+    "choices": [
+        "Hodgkin lymphoma",
+        "Diffuse large B-cell lymphoma",
+        "Mycobacterial infection",
+        "Adult T-cell lymphoma",
+        "Acute lymphocytic leukemia",
+        "Acute retroviral syndrome"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The combination of regional contiguous lymphadenopathy, alcohol-induced pain in the lymph nodes, and B symptoms should raise concern for Hodgkin lymphoma. This patient's age further supports the diagnosis of Hodgkin lymphoma, which has a bimodal age distribution, with the highest prevalence in the 3rd and 6th–8th decades of life. Lymph node biopsy findings can show Reed-Sternberg cells, which are CD15/CD30-positive, polynuclear giant cells that originate from B cells. Reed-Sternberg cells are pathognomonic for Hodgkin lymphoma and would confirm the diagnosis."
+},
+{
+    "question": "A 58-year-old woman who underwent urgent coronary artery bypass grafting develops sudden-onset difficulty breathing shortly after postoperative transfusion of 1 unit of packed red blood cells because of moderate blood loss. She has alcohol use disorder and has smoked one pack of cigarettes daily for 22 years. Her temperature is 38.3°C (100.8°F), respirations are 35/min, and blood pressure is 88/57 mmHg. Pulse oximetry on room air shows an oxygen saturation of 72%. Physical examination shows profuse sweating and cyanosis. There is no jugular venous distension and no peripheral edema. A chest x-ray shows bilateral alveolar and interstitial infiltrates and a normal cardiac silhouette. Which of the following is the most likely underlying mechanism of this patient’s transfusion reaction?",
+    "choices": [
+        "Cytokine accumulation during blood storage",
+        "ABO incompatibility",
+        "Anamnestic antibody response",
+        "Activation of primed neutrophils",
+        "Type I hypersensitivity reaction"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Activation of primed neutrophils within the recipient's pulmonary capillaries is thought to be the pathomechanism of transfusion-related acute lung injury (TRALI). Activation occurs after exposure to soluble factors (anti-leukocyte antibodies or lipids) in the donor blood. The result is diffuse damage of pulmonary endothelial cells, which leads to leakage of interstitial fluid into the alveoli, causing an ARDS-like reaction with respiratory distress, fever, hypoxemia, and diffuse infiltrates on chest x-ray, as seen in this patient."
+},
+{
+    "question": "A 69-year-old woman comes to the physician for a routine health maintenance examination. She feels well. Physical examination shows nontender cervical and axillary lymphadenopathy. The spleen is palpated 5 cm below the costal margin. Her leukocyte count is 12,000/mm³ and platelet count is 217,000/mm³. Further evaluation is most likely to show which of the following findings?",
+    "choices": [
+        "Ringed sideroblasts",
+        "Teardrop cells",
+        "Smudge cells",
+        "Rouleaux formation",
+        "Reed-Sternberg cells",
+        "Polycythemia",
+        "Hypergammaglobulinemia"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Smudge cells in a blood smear are characteristic diagnostic markers for chronic lymphocytic leukemia (CLL). Detection of B-CLL immunophenotype (CD5, CD19, CD20, CD23) in flow cytometry would further support the diagnosis. CLL is a low-grade malignancy, noted for its slow rate of cell division and disease progression. In asymptomatic patients, treatment is often unnecessary as it is unlikely to improve survival time."
+},
+{
+    "question": "A 53-year-old woman comes to the physician because of increasing shortness of breath on exertion for 5 months. She reports that she can no longer climb more than 2 flights of stairs or run her errands as usual. One year ago, she was diagnosed with triple-negative breast cancer and underwent a right-sided modified radical mastectomy and adjuvant chemotherapy. Cardiac examination shows a laterally displaced point of maximal impulse. Coarse inspiratory crackles are heard in both lower lung fields. Echocardiography shows a left ventricular ejection fraction of 30%. The physician informs the patient that her symptoms are most likely due to an adverse effect of her chemotherapy. The drug most likely responsible for the patient's current symptoms belongs to which of the following groups of agents?",
+    "choices": [
+        "Monoclonal antibodies",
+        "Alkylating agents",
+        "Vinca alkaloids",
+        "Antimetabolites",
+        "Topoisomerase I inhibitors",
+        "Anthracyclines"
+    ],
+    "correctAnswer": 5,
+    "explanation": "Anthracyclines (e.g., doxorubicin) are associated with an increased risk of developing dilated cardiomyopathy with left heart failure, as seen in this patient. Adjuvant chemotherapy with anthracyclines is often used in patients with triple-negative breast cancer because these tumors are aggressive and do not respond to hormonal or targeted therapies. Concomitant use of the iron-chelating agent dexrazoxane can help prevent anthracycline-induced cardiotoxicity."
+},
+{
+    "question": "A 71-year-old man with colorectal cancer comes to the physician for follow-up examination after undergoing a sigmoid colectomy. The physician recommends adjuvant chemotherapy with an agent that results in single-stranded DNA breaks. This chemotherapeutic agent most likely has an effect on which of the following enzymes?",
+    "choices": [
+        "Telomerase",
+        "Topoisomerase II",
+        "Apurinic/apyrimidinic endonuclease",
+        "Helicase",
+        "DNA polymerase III",
+        "Topoisomerase I"
+    ],
+    "correctAnswer": 5,
+    "explanation": "Topoisomerase I is an enzyme that cuts one of the two strands of double-stranded DNA to remove supercoils during DNA replication. Its inhibition (e.g., by irinotecan or topotecan) prevents proper unwinding of supercoils and reannealing of DNA during DNA replication. This inhibition causes single-stranded DNA breaks, which accumulate and prevent proper DNA replication, transcription, and DNA repair, inducing cell cycle arrest in the late S phase or early G2 phase."
+},
+{
+    "question": "A 65-year-old man comes to the physician because of a 1-month history of progressive back pain. He has also had a 5-kg (11-lb) weight loss over the past 3 months. His only medications are a daily multivitamin and ibuprofen, which he takes daily for the back pain. Physical examination shows tenderness to palpation over the lower spine and the left iliac crest. His hemoglobin concentration is 9.3 g/dL, his serum calcium concentration is 12 mg/dL, and his serum creatinine concentration is 2.1 mg/dL. A bone marrow biopsy shows 21% plasma cells. A diagnosis of multiple myeloma is established. In preparation for an autologous hematopoietic stem cell transplantation, the patient receives a myeloablative treatment regimen that includes busulfan. Which of the following drugs acts via a similar mechanism of action to busulfan?",
+    "choices": [
+        "Vemurafenib",
+        "Bleomycin",
+        "Etoposide",
+        "Lomustine",
+        "Vincristine",
+        "Cytarabine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Lomustine is an alkylating chemotherapeutic agent of the nitrosourea subgroup; similar to busulfan, it inhibits DNA replication by creating cross-links between DNA strands. These modifications cannot be repaired, which results in cell apoptosis. Busulfan is used as part of a conditioning regimen prior to autologous hematopoietic stem cell transplantation, as seen in this patient. Important adverse effects include myelosuppression, pulmonary fibrosis, and cutaneous hyperpigmentation. Lomustine is used to treat brain tumors and Hodgkin lymphoma. Important adverse effects include nausea, vomiting, and central nervous system dysfunction (e.g., ataxia, lethargy)."
+},
+{
+    "question": "A 4-year-old boy is brought to the physician because of a 1-month history of generalized fatigue. During the past week, he has also had fever and severe leg pain that keeps him awake at night. Examination shows cervical and axillary lymphadenopathy. His liver is palpated 4 cm below the right costal margin, and the spleen is palpated 3 cm below the left costal margin. His hemoglobin concentration is 10.2 g/dL, leukocyte count is 64,500/mm³, and platelet count is 29,000/mm³. A bone marrow aspirate predominantly shows immature cells that stain positive for CD10, CD19, and TdT. Which of the following is the most likely diagnosis?",
+    "choices": [
+        "Aplastic anemia",
+        "Leukemoid reaction",
+        "Hairy cell leukemia",
+        "Idiopathic thrombocytopenic purpura",
+        "Acute myeloid leukemia",
+        "Acute lymphoblastic leukemia",
+        "Hodgkin lymphoma"
+    ],
+    "correctAnswer": 5,
+    "explanation": "Acute lymphoblastic leukemia (ALL) is the most frequent malignant disease in children and has a peak incidence between the ages of 2 and 5 years. ALL may manifest with bone pain, fatigue, fever, hepatosplenomegaly, anemia, thrombocytopenia (with bleeding diathesis), and leukocytosis. Most forms of ALL arise from B cell precursors and therefore show CD19+ and CD10+ immunophenotype as well as cells that are positive for TdT on a bone marrow examination."
+},
+{
+    "question": "A 55-year-old man comes to the physician because of worsening fatigue and recurrent bleeding from his gums for 2 weeks. Physical examination shows marked pallor. There are scattered red, nonblanching pinpoint spots on his trunk and extremities. Laboratory studies show a hemoglobin of 8.0 g/dL, a leukocyte count of 80,000/mm³, and a platelet count of 104,000/mm³. Genetic analysis of a bone marrow aspirate shows leukemic cells with a balanced translocation between the long arms of chromosomes 15 and 17. These cells are most likely to stain positive for which of the following?",
+    "choices": [
+        "Myeloperoxidase",
+        "Tartrate resistant acid phosphatase",
+        "Periodic acid-Schiff",
+        "Cluster of differentiation 1a",
+        "Terminal deoxynucleotidyl transferase"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The presence of myeloperoxidase (MPO) in leukemic cells of a bone marrow aspirate confirms that the cells are of myeloid lineage, and thus differentiates acute myeloid leukemia (AML) from MPO-negative acute lymphoblastic leukemia (ALL). This patient's age, clinical presentation, lab values, and t(15;17) translocation indicate AML, which is why the cells of his bone marrow aspirate will likely stain positive for MPO. Another characteristic feature of AML is Auer rods, which are particularly associated with acute promyelocytic leukemia. Acute promyelocytic leukemia can be treated with vitamin A derivatives such as ATRA (all-trans-retinoic acid)."
+},
+{
+    "question": "A 55-year-old man comes to the physician because of fatigue and worsening abdominal pain for 4 weeks. He also reports excessive night sweats and a 5.4-kg (12-lb) weight loss during this time. He has a neck swelling for 4 days. Physical examination shows a nontender, enlarged, and fixed supraclavicular lymph node. There is splenomegaly. A CT scan of the thorax and abdomen shows massively enlarged axillary, mediastinal, and cervical lymph nodes. Analysis of an excised cervical lymph node shows lymphocytes with a high proliferative index that stain positive for CD20. Which of the following is the most likely diagnosis?",
+    "choices": [
+        "Adult T-cell lymphoma",
+        "Mantle cell lymphoma",
+        "Burkitt lymphoma",
+        "Hairy cell leukemia",
+        "Follicular lymphoma",
+        "Diffuse large B-cell lymphoma",
+        "Hodgkin lymphoma"
+    ],
+    "correctAnswer": 5,
+    "explanation": "This patient most likely has a diffuse large B-cell lymphoma (DLBCL), which is the most common type of non-Hodgkin lymphoma (NHL) in adults, accounting for approximately 25% of cases. DLBCL is an aggressive (high-grade) type of lymphoma occurring spontaneously or secondary to various types of low-grade B-cell lymphomas (e.g., chronic lymphocytic leukemia or MALT lymphoma). Patients with high-grade B-cell NHL are first treated with curative intent, typically with polychemotherapy such as R-CHOP (a combination of cyclophosphamide, doxorubicin, vincristine, prednisone) and the CD20 antibody rituximab."
+},
+{
+    "question": "A 54-year-old woman with metastatic breast cancer comes to the physician for a follow-up examination. She had a mastectomy 6 months ago and received chemotherapy with doxorubicin and paclitaxel. A CT scan of the chest shows new metastases in the lungs and liver. Adjuvant therapy is initiated with a drug that inhibits the formation of deoxythymidine monophosphate and results in the accumulation of deoxyuridine triphosphate. The patient is advised to avoid folic acid supplementation while receiving this drug in order to prevent the toxic effects of this drug. Which of the following drugs was most likely given?",
+    "choices": [
+        "Hydroxyurea",
+        "Azathioprine",
+        "Mycophenolate mofetil",
+        "Methotrexate",
+        "Capecitabine"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Capecitabine is converted to 5-fluorouracil (5-FU) in vivo. 5-FU covalently binds to and inhibits the enzyme thymidylate synthase, subsequently preventing the formation of deoxythymidine monophosphate, an essential component of DNA, and increasing the concentration of its precursors, deoxyuridine monophosphate and deoxyuridine triphosphate. 5-FU can bind to thymidylate synthase only in the presence of methylene-tetrahydrofolate, which is a derivative of folic acid and a cofactor of thymidylate synthase. Therefore, the administration of folic acid concurrently with 5-FU or capecitabine augments the effects of these drugs by increasing their binding to thymidylate synthase and simultaneously increases the risk of adverse effects (e.g., myelotoxicity). In contrast, the therapeutic efficacy and the toxic effects of methotrexate are decreased by concurrent folic acid supplementation."
+},
+{
+    "question": "A 5-year-old boy is brought to the physician by his parents because of a 6-week history of increased tiredness, irritability, and worsening leg pain. His parents report that he has been reluctant to walk recently because of the pain in his legs. Temperature is 38.1°C (100.6°F); other vital signs are within normal limits. Examination shows conjunctival pallor and diffuse petechiae. There are palpable, nontender posterior cervical and axillary lymph nodes. His hemoglobin concentration is 8.9 g/dL, leukocyte count is 45,750/mm³, and platelet count is 25,000/mm³. A bone marrow aspiration shows numerous immature cells that stain positive for CD10, CD19, and terminal deoxynucleotidyl transferase (TdT). Which of the following translocations is associated with a favorable prognosis for this patient’s condition?",
+    "choices": [
+        "t(12;21)",
+        "t(15;17)",
+        "t(8;14)",
+        "t(14;18)",
+        "t(9;22)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Translocation t(12;21) is the most common chromosomal rearrangement in childhood B-ALL and is associated with a favorable prognosis. Further positive prognostic factors include a leukocyte count < 50,000/mm³, no central nervous system involvement, and hyperploidy. Factors associated with a poor prognosis include a Philadelphia translocation t(9;22) and age < 1 year or > 10 years. Approximately 85% of children with ALL achieve complete remission with chemotherapy."
+}
 ]
